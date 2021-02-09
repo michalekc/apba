@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="APBA">
+    <output-path>$PROJECT_DIR$/out/artifacts/APBA</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+      </options>
+    </properties>
+    <root id="archive" name="APBA.apk" />
+  </artifact>
+</component>

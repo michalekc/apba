@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="APBA.MainScreenController">
+   <children>
+      <ImageView fx:id="background" fitHeight="800.0" fitWidth="900.0" pickOnBounds="true">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backToMain" layoutX="782.0" mnemonicParsing="false" text="Back to Main Menu" visible="false" />
+      <Button fx:id="rays" layoutX="15.0" layoutY="220.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="bluejays" layoutX="15.0" layoutY="330.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="yankees" layoutX="15.0" layoutY="440.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="orioles" layoutX="15.0" layoutY="550.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="redsox" layoutX="15.0" layoutY="660.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="indians" layoutX="135.0" layoutY="220.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="tigers" layoutX="135.0" layoutY="330.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="twins" layoutX="135.0" layoutY="440.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="royals" layoutX="135.0" layoutY="550.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="whitesox" layoutX="135.0" layoutY="660.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="mariners" layoutX="255.0" layoutY="220.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="as" layoutX="255.0" layoutY="330.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="angels" layoutX="255.0" layoutY="440.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="astros" layoutX="255.0" layoutY="550.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="rangers" layoutX="255.0" layoutY="660.0" mnemonicParsing="false" visible="false" />
+      <Label fx:id="eastA" layoutX="46.0" layoutY="155.0" prefHeight="60.0" prefWidth="53.0" text="EAST" textFill="#d61111" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="centralA" layoutX="145.0" layoutY="155.0" prefHeight="60.0" prefWidth="98.0" text="CENTRAL" textFill="#d61111" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="westA" layoutX="279.0" layoutY="155.0" prefHeight="60.0" prefWidth="62.0" text="WEST" textFill="#d61111" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="americanLeagueLogo" fitHeight="100.0" fitWidth="100.0" layoutX="135.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Logos/americanleaguelogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="apbaLogo" fitHeight="150.0" fitWidth="150.0" layoutX="375.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logos/apbalogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nationalLeagueLogo" fitHeight="100.0" fitWidth="100.0" layoutX="658.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Logos/nationalleaguelogo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="braves" layoutX="530.0" layoutY="660.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="reds" layoutX="650.0" layoutY="660.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="padres" layoutX="770.0" layoutY="660.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="phillies" layoutX="530.0" layoutY="550.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="marlins" layoutX="530.0" layoutY="440.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="nationals" layoutX="530.0" layoutY="330.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="mets" layoutX="530.0" layoutY="220.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="cardinals" layoutX="650.0" layoutY="550.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="pirates" layoutX="650.0" layoutY="440.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="cubs" layoutX="650.0" layoutY="330.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="brewers" layoutX="650.0" layoutY="220.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="giants" layoutX="770.0" layoutY="550.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="rockies" layoutX="770.0" layoutY="440.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="dodgers" layoutX="770.0" layoutY="330.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="dbacks" layoutX="770.0" layoutY="220.0" mnemonicParsing="false" visible="false" />
+      <Label fx:id="eastN" layoutX="564.0" layoutY="155.0" prefHeight="60.0" prefWidth="53.0" text="EAST" textFill="#172190" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="centralN" layoutX="663.0" layoutY="155.0" prefHeight="60.0" prefWidth="98.0" text="CENTRAL" textFill="#172190" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="westN" layoutX="797.0" layoutY="155.0" prefHeight="60.0" prefWidth="62.0" text="WEST" textFill="#172190" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" layoutX="363.0" layoutY="305.0" mnemonicParsing="false" onAction="#importRoster" prefHeight="75.0" prefWidth="175.0" text="START">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="32.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="exit" layoutX="376.0" layoutY="440.0" mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="148.0" text="Exit Game">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="backToTeamSelect" layoutX="762.0" mnemonicParsing="false" text="Back to Team Selection" visible="false" />
+      <ChoiceBox fx:id="thirdBase" layoutX="110.0" layoutY="440.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="shortstop" layoutX="225.0" layoutY="220.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="secondBase" layoutX="546.0" layoutY="220.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="firstBase" layoutX="650.0" layoutY="440.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="pitcher" layoutX="376.0" layoutY="453.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="catcher" layoutX="374.0" layoutY="673.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="leftField" layoutX="35.0" layoutY="73.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="rightField" layoutX="683.0" layoutY="73.0" prefWidth="150.0" visible="false" />
+      <ChoiceBox fx:id="centerField" layoutX="374.0" layoutY="48.0" prefWidth="150.0" visible="false" />
+      <Button fx:id="setLineup1" layoutX="700.0" layoutY="690.0" mnemonicParsing="false" onAction="#checkForValidHomeLineup" text="Set Lineup" visible="false">
+         <font>
+            <Font name="Gill Sans MT" size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="setLineup2" layoutX="700.0" layoutY="690.0" mnemonicParsing="false" onAction="#checkForValidAwayLineup" text="Set Lineup" visible="false">
+         <font>
+            <Font name="Gill Sans MT" size="27.0" />
+         </font>
+      </Button>
+      <Label fx:id="home" layoutX="46.0" layoutY="629.0" text="HOME" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="lineup" layoutX="85.0" layoutY="682.0" text="Lineup" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="away" layoutX="46.0" layoutY="629.0" text="AWAY" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="choose" layoutX="396.0" layoutY="349.0" text="Choose" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="homeTeamLabel" layoutX="390.0" layoutY="385.0" text="Home Team" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="awayTeamLabel" layoutX="393.0" layoutY="384.0" text="Away Team" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="secondBaseDot" fitHeight="50.0" fitWidth="50.0" layoutX="427.0" layoutY="210.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@Icons/redcircle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="thirdBaseDot" fitHeight="50.0" fitWidth="50.0" layoutX="165.0" layoutY="440.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@Icons/redcircle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firstBaseDot" fitHeight="50.0" fitWidth="50.0" layoutX="688.0" layoutY="440.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@Icons/redcircle.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="player0" editable="false" layoutX="289.0" layoutY="206.0" visible="false" />
+      <TextField fx:id="player1" editable="false" layoutX="289.0" layoutY="246.0" visible="false" />
+      <TextField fx:id="player2" editable="false" layoutX="289.0" layoutY="286.0" visible="false" />
+      <TextField fx:id="player3" editable="false" layoutX="289.0" layoutY="326.0" visible="false" />
+      <TextField fx:id="player4" editable="false" layoutX="289.0" layoutY="366.0" visible="false" />
+      <TextField fx:id="player5" editable="false" layoutX="289.0" layoutY="406.0" visible="false" />
+      <TextField fx:id="player6" editable="false" layoutX="289.0" layoutY="446.0" visible="false" />
+      <TextField fx:id="player7" editable="false" layoutX="289.0" layoutY="486.0" visible="false" />
+      <TextField fx:id="player8" editable="false" layoutX="289.0" layoutY="526.0" visible="false" />
+      <Button fx:id="setBattingOrderHome" layoutX="650.0" layoutY="700.0" mnemonicParsing="false" onAction="#checkValidHomeBattingOrder" text="Set Batting Order" visible="false">
+         <font>
+            <Font name="Gill Sans MT" size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="setBattingOrderAway" layoutX="650.0" layoutY="700.0" mnemonicParsing="false" onAction="#checkValidAwayBattingOrder" text="Set Batting Order" visible="false">
+         <font>
+            <Font name="Gill Sans MT" size="27.0" />
+         </font>
+      </Button>
+      <TextField fx:id="player0Order" layoutX="472.0" layoutY="206.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player1Order" layoutX="472.0" layoutY="246.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player2Order" layoutX="472.0" layoutY="286.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player3Order" layoutX="472.0" layoutY="326.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player4Order" layoutX="472.0" layoutY="366.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player5Order" layoutX="472.0" layoutY="406.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player6Order" layoutX="472.0" layoutY="446.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player7Order" layoutX="472.0" layoutY="486.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="player8Order" layoutX="472.0" layoutY="526.0" prefWidth="25.0" visible="false" />
+      <Label fx:id="homeTeamBattingOrderLabel" layoutX="225.0" layoutY="90.0" text="HOME Team Batting Order" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="awayTeamBattingOrderLabel" layoutX="220.0" layoutY="90.0" text="AWAY Team Batting Order" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="play" layoutX="385.0" layoutY="322.0" text="PLAY" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="ball" layoutX="375.0" layoutY="372.0" text="BALL!" visible="false">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="quitToTeamSelect" layoutX="780.0" mnemonicParsing="false" text="Quit to Team Select" visible="false" />
+      <Label fx:id="rightClickInfo" layoutX="381.0" layoutY="503.0" prefHeight="119.0" prefWidth="139.0" text="*Right click on a team to bring up their roster *Double Click on a Player to View Their Card" textAlignment="CENTER" visible="false" wrapText="true" />
+   </children>
+</Pane>
